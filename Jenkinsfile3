@@ -4,7 +4,7 @@ pipeline {
     environment {
         REGISTRY = "10.10.20.2:5000"
         SWARM_MANAGER = "10.10.20.4"
-        SSH_USER = "gck8s-219010"
+        SSH_USER = "ilkilab12"
         SSH_KEY = "/var/jenkins_home/.ssh/id_rsa"
         STACK_NAME = "microservice"
     }
